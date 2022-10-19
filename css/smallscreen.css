@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*
+	Author: James Murphy
+	Date: 10/18/2022
+	File: layout.css
+
+	Basic layout styles for portfolio website
+*/
+
+header {
+  margin: 0 20% 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  padding: 0 10px 0;
+}
+
+.contact-links li {
+  padding: 0 0 5px;
+}
+
+#main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#contact {
+  flex: 1 1 auto;
+}
+
+#about {
+  flex: 1 1 auto;
+}
+
+#projects {
+  margin-right: 15%;
+}
+
+footer {
+  margin-top: 30%;
+}
