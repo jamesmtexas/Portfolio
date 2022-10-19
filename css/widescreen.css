@@ -4,7 +4,7 @@
 	Date: 10/18/2022
 	File: layout.css
 
-	Basic layout styles for portfolio website
+	Desktop device styles
 */
 
 header {
@@ -75,6 +75,10 @@ html {
 }
 
 p, h1 ,a {
+  color: white;
+}
+
+article li {
   color: white;
 }
 

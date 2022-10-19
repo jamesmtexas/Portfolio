@@ -4,7 +4,7 @@
 	Date: 10/18/2022
 	File: layout.css
 
-	Basic layout styles for portfolio website
+	Mobile device styles
 */
 
 body {
@@ -56,17 +56,13 @@ header {
 
 #about {
   flex: 1 1 auto;
-  background-color: #BBACC1;
-  padding: 0 15px 0;
-  border-radius: 10px;
 }
 
-#projects {
-  padding: 0 15px 0;
+article {
   background-color: #BBACC1;
+  padding: 0 15px 5px;
   border-radius: 10px;
 }
-
 
 .nav-links {
   list-style-type: none;
