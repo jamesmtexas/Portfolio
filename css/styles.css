@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+	Author: James Murphy
+	Date: 10/18/2022
+	File: styles.css
+
+	Basic typographical styles for portfolio website
+*/
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.contact-links {
+  list-style-type: none;
+}
+
+.contact-links a {
+  text-decoration: none;
+}
+
+html {
+  background-image: url("../images/shop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p, h1 ,a {
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
