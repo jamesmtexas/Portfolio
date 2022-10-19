@@ -30,10 +30,6 @@ html {
   background-attachment: fixed;
 }
 
-p, h1 ,a {
+p, h1 , a {
   color: white;
-}
-
-footer {
-  text-align: center;
 }

@@ -50,3 +50,34 @@ header {
 footer {
   margin-top: 30%;
 }
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.contact-links {
+  list-style-type: none;
+}
+
+.contact-links a {
+  text-decoration: none;
+}
+
+html {
+  background-image: url("../images/shop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p, h1 ,a {
+  color: white;
+}
+
+footer {
+  text-align: center;
+}

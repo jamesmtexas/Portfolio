@@ -7,6 +7,11 @@
 	Basic layout styles for portfolio website
 */
 
+body {
+    background-color: #F1DEDE;
+    margin: 0;
+}
+
 header {
   margin: 0 20% 5%;
 }
@@ -36,16 +41,46 @@ header {
 
 #contact {
   flex: 1 1 auto;
+  order: 2;
+  padding: 10px 0 0;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links li {
+  padding: 0 10px 0;
 }
 
 #about {
   flex: 1 1 auto;
+  background-color: #BBACC1;
+  padding: 0 15px 0;
+  border-radius: 10px;
 }
 
 #projects {
-  margin-right: 15%;
+  padding: 0 15px 0;
+  background-color: #BBACC1;
+  border-radius: 10px;
 }
 
-footer {
-  margin-top: 30%;
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-links {
+  list-style-type: none;
+}
+
+.contact-links a {
+  text-decoration: none;
 }
